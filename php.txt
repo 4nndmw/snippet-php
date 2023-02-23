@@ -1,0 +1,29 @@
+  "PHP tag": {
+    "prefix": "php",
+    "body": " <?php $1 ?> "
+  },
+  "PHP techo": {
+    "prefix": "phpp",
+    "body": " <?= $$1 ?> "
+  },
+  "input table": {
+    "prefix": "formel",
+    "body": [
+      "<label for=\"${2:username}\">${3:Username}</label>",
+      "<input type=\"${1:text}\" name=\"${2:username}\" id=\"${2:username}\">"
+    ]
+  },
+
+  "my form": {
+    "prefix": "myform",
+    "body": "<form method=\"${1|get,post|}\" action=\"$2\">$3</form>"
+  },
+
+  "my button": {
+    "prefix": "butt",
+    "body": "<button type=\"${1:submit}\" name=\"${2:submit}\" id=\"${3:submit}\">${4:submit}</button>"
+  },
+  "echo": {
+    "prefix": "echo",
+    "body": "echo $1;"
+  }
